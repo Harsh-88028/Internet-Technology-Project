@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Valorant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <meta name="keywords" content="Valorant Website" />
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon" />
+  <script type="application/x-javascript">
+      addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    </script>
+  <!-- bootstrap-css -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <!--// bootstrap-css -->
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+  <!--// css -->
+  <!-- font-awesome icons -->
+  <link href="css/font-awesome.css" rel="stylesheet" />
+  <!-- //font-awesome icons -->
+  <!-- portfolio -->
+  <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all" />
+  <!-- //portfolio -->
+  <!-- font -->
+  <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+    rel="stylesheet" />
+  <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300"
+    rel="stylesheet" type="text/css" />
+  <!-- //font -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="./js/contact.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $("html,body").animate(
+          { scrollTop: $(this.hash).offset().top },
+          1000
+        );
+      });
+    });
+  </script>
+
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- banner -->
+  <div class="banner">
+    <div class="agileinfo-dot">
+      <div class="header-top">
+        <div class="container">
+          <div class="header-top-info">
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                  data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                <nav>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about" class="scroll">About</a></li>
+                    <li><a href="#gallery" class="scroll">Agents and Maps</a></li>
+                    <li><a href="#team" class="scroll">Team</a></li>
+                    <li><a href="#blog" class="scroll">Esports</a></li>
+                    <li><a href="#mail" class="scroll">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="layouts-banner-info">
+        <div class="container">
+          <div class="layouts-banner-slider">
+            <div class="layouts-banner-top-slider">
+              <div class="slider">
+                <div class="callbacks_container">
+                  <ul class="rslides callbacks callbacks1" id="slider4">
+                    <li>
+                      <div class="banner_text">
+                        <h3>Valorant</h3>
+                        <p>A 5v5 character-based tactical shooter</p>
+                        <div class="w3-button">
+                          <a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="clearfix"></div>
+                <script src="js/responsiveslides.min.js"></script>
+                <script>
+                  // You can also use "$(window).load(function() {"
+                  $(function () {
+                    // Slideshow 4
+                    $("#slider4").responsiveSlides({
+                      auto: true,
+                      pager: true,
+                      nav: true,
+                      speed: 500,
+                      namespace: "callbacks",
+                      before: function () {
+                        $(".events").append("<li>before event fired.</li>");
+                      },
+                      after: function () {
+                        $(".events").append("<li>after event fired.</li>");
+                      },
+                    });
+                  });
+                </script>
+                <!--banner Slider starts Here-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //banner -->
+  <!-- about -->
+  <div class="about" id="about">
+    <div class="container">
+      <div class="welcome">
+        <div class="agileits-title">
+          <h2>WE ARE VALORANT</h2>
+        </div>
+      </div>
+      <div class="about-w3lsrow">
+        <div class="col-md-7 col-sm-7 w3about-img">
+          <div class="w3about-text">
+            <h5 class="w3l-subtitle">- About Us</h5>
+            <p>
+              Blend your style and experience on a global, competitive stage.
+              You have 13 rounds to attack and defend your side using sharp
+              gunplay and tactical abilities. And, with one life per-round,
+              you'll need to think faster than your opponent if you want to
+              survive.
+            </p>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //about -->
+  <!-- markets -->
+  <div class="markets" id="markets">
+    <div class="container">
+      <div class="agileits-title">
+        <h3>Experience</h3>
+      </div>
+      <div class="markets-grids">
+        <div class="col-md-4 w3ls-markets-grid">
+          <div class="agileits-icon-grid">
+            <div class="icon-left">
+              <i class="fa fa-gamepad" aria-hidden="true"></i>
+            </div>
+            <div class="icon-right">
+              <h5>Game Modes</h5>
+              <p>
+                We have permanent game modes Unrated, Competitive, Spike Rush,
+                and Deathmatch and rotating game mode like Escalation,
+                Replication, and Snowball Fight.
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="col-md-4 w3ls-markets-grid">
+          <div class="agileits-icon-grid">
+            <div class="icon-left">
+              <i class="fa fa-trophy" aria-hidden="true"></i>
+            </div>
+            <div class="icon-right">
+              <h5>Act rank</h5>
+              <p>
+                The ranks are: Iron, Bronze, Silver, Gold, Platinum, Diamond,
+                Ascendant, Immortal, and Radiant. With the exception of
+                Radiant, each rank has three tiers.
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <div class="col-md-4 w3ls-markets-grid">
+          <div class="agileits-icon-grid">
+            <div class="icon-left">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </div>
+            <div class="icon-right">
+              <h5>Unique Gameplay</h5>
+              <p>
+                We have a variety of maps and have 20 agents to select from.
+                Every agent has different abilities The game have a lot of
+                cool skins for all different weapons.
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //markets -->
+  <!-- portfolio -->
+  <div class="portfolio" id="gallery">
+    <div class="container">
+      <div class="agileits-title">
+        <h3>Agents & Maps</h3>
+      </div>
+      <ul class="simplefilter layouts agileits">
+        <li class="active layouts agileits" data-filter="all">All</li>
+        <li class="layouts agileits" data-filter="1">Maps</li>
+        <li class="layouts agileits" data-filter="2">Duelists</li>
+        <li class="layouts agileits" data-filter="3">Controllers</li>
+        <li class="layouts agileits" data-filter="4">Initiators</li>
+        <li class="layouts agileits" data-filter="5">Sentinels</li>
+      </ul>
+
+      <div class="filtr-container layouts agileits">
+        <div class="filtr-item layouts agileits portfolio-t" data-category="1" data-sort="Busy streets">
+          <a href="images/Ascent.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Ascent.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Ascent</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="Luminous night">
+          <a href="images/Bind.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Bind.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Bind</span></h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="City wonders">
+          <a href="images/Fracture.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Fracture.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Fracture</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="In production">
+          <a href="images/Haven.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Haven.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Haven</span></h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="Industrial site">
+          <a href="images/Pearl.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Pearl.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Pearl</span></h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="Peaceful lake">
+          <a href="images/Split.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Split.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Split</span></h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="City lights">
+          <a href="images/Breeze.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Breeze.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Breeze</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="1" data-sort="Dreamhouse">
+          <a href="images/Icebox.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Icebox.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Icebox</span></h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="4" data-sort="Dreamhouse">
+          <a href="images/Breach.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Breach.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Breach</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="3" data-sort="Dreamhouse">
+          <a href="images/Brimstone.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Brimstone.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Brimstone</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="5" data-sort="Dreamhouse">
+          <a href="images/Cypher.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Cypher.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Cypher</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="5" data-sort="Dreamhouse">
+          <a href="images/Killjoy.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Killjoy.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Killjoy</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="3" data-sort="Dreamhouse">
+          <a href="images/Omen.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Omen.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Omen</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="2" data-sort="Dreamhouse">
+          <a href="images/Raze.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Raze.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Raze</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="2" data-sort="Dreamhouse">
+          <a href="images/Reyna.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Reyna.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Reyna</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="5" data-sort="Dreamhouse">
+          <a href="images/Sage.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Sage.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Sage</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="4" data-sort="Dreamhouse">
+          <a href="images/Sova.png" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Sova.png" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Sova</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="filtr-item layouts agileits" data-category="3" data-sort="Dreamhouse">
+          <a href="images/Viper.jpg" class="b-link-stripe layouts agileits b-animate-go thickbox">
+            <figure>
+              <img src="images/Viper.jpg" class="img-responsive layouts agileits" alt="layouts Agileits" />
+              <figcaption>
+                <h3>Viper</h3>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+
+
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //portfolio -->
+  <!-- modal -->
+  <div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <div class="agileits-layouts-info">
+            <img src="images/1.jpg" alt="" />
+            <p>
+              VALORANT is a character-based 5v5 tactical shooter set on the
+              global stage. Outwit, outplay, and outshine your competition
+              with tactical abilities, precise gunplay, and adaptive teamwork.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //modal -->
+
+  <!-- team -->
+  <div class="team" id="team">
+    <div class="container">
+      <div class="agileits-title">
+        <h3>Amazing Team</h3>
+      </div>
+      <div class="agileits-team-grids">
+        <div class="col-md-3 agileits-team-grid">
+          <div class="team-info">
+            <img src="images/t1.jpg" alt="" />
+            <div class="team-caption">
+              <h4>Khushal Sachdeva</h4>
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 agileits-team-grid">
+          <div class="team-info">
+            <img src="images/t2.jpg" alt="" />
+            <div class="team-caption">
+              <h4>Harsh Meena</h4>
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 agileits-team-grid">
+          <div class="team-info">
+            <img src="images/t3.jpg" alt="" />
+            <div class="team-caption">
+              <h4>Shruti Saha</h4>
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 agileits-team-grid">
+          <div class="team-info">
+            <img src="images/t4.jpg" alt="" />
+            <div class="team-caption">
+              <h4>Ankit Singh</h4>
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 agileits-team-grid">
+          <div class="team-info">
+            <img src="images/t5.jpg" alt="" />
+            <div class="team-caption">
+              <h4>Chetan Bafila</h4>
+              <p>Web Developer</p>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-rss"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //team -->
+  <!-- Esports -->
+  <div id="blog" class="blog">
+    <div class="container">
+      <div class="agileits-title">
+        <h3>Esports</h3>
+      </div>
+      <div class="wthree-blog-grids">
+        <div class="col-md-6 w3-agileits-blog-grid">
+          <div class="col-sm-4 col-xs-3 blog-left">
+            <h4>24/10</h4>
+            <ul>
+              <li>Posted : <a href="#">Admin</a></li>
+              <li>Likes : 31</li>
+              <li></li>
+              <li>Comments : (4)</li>
+            </ul>
+          </div>
+          <div class="col-sm-8 col-xs-9 blog-right">
+            <a href="#" data-toggle="modal" data-target="#myModal">BME Superdome recap: Fnatic take the tournament</a>
+            <p>
+              If you've been lamenting the distinct lack of VALORANT since VCT
+              Champions ended in September, the BME Superdome is the first in
+              a series of OFF//SEASON tournaments that will see some of EMEAs
+              most famous faces juke it out once more. Framed by the
+              magnificent backdrop of Cairo, Egypt, EMEA titans Fnatic and
+              Acend joined some of the Middle Easts best teams in a battle for
+              the ages, ultimately facing off against one another for the
+              Superdome crown.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-6 w3-agileits-blog-grid">
+          <div class="col-sm-4 col-xs-3 blog-left">
+            <h4>21/10</h4>
+            <ul>
+              <li>Posted : <a href="#">Admin</a></li>
+              <li>Likes : 80</li>
+              <li></li>
+              <li>Comments : (8)</li>
+            </ul>
+          </div>
+          <div class="col-sm-8 col-xs-9 blog-right">
+            <a href="#" data-toggle="modal" data-target="#myModal">VALORANT Challengers East: Surge Coming in 2023</a>
+            <p>
+              Get ready for 2023! Today we're excited to share more details,
+              and the full list of countries participating, around Eastern
+              Europe's new VALORANT Challengers League, VALORANT Challengers
+              East: Surge. Starting in 2023, players and teams from 23
+              countries across Central and Eastern Europe will compete in
+              highly organised competition against each other - starting with
+              open qualifiers and culminating in one team being crowned the
+              inaugural champions.
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!-- //blog -->
+  <!-- Contact Us -->
+  <div class="mail" id="mail">
+    <div class="container">
+      <div class="agileits-title">
+        <h3>Contact Us</h3>
+      </div>
+      <div class="w3_mail_grids">
+        <form action="https://sendmail.layouts.com/submitForm" method="post">
+          <span class="input input--jiro">
+            <input class="input__field input__field--jiro" type="text" id="input-10" name="w3lName"
+              placeholder="Your Name" required="" />
+            <label class="input__label input__label--jiro" for="input-10">
+              <span class="input__label-content input__label-content--jiro">Your Name</span>
+            </label>
+          </span>
+          <span class="input input--jiro">
+            <input class="input__field input__field--jiro" type="email" id="input-11" name="w3lSender"
+              placeholder="Your Email Address" required="" />
+            <label class="input__label input__label--jiro" for="input-11">
+              <span class="input__label-content input__label-content--jiro">Your Email</span>
+            </label>
+          </span>
+          <span class="input input--jiro">
+            <input class="input__field input__field--jiro" type="text" id="input-12" name="w3lSubject"
+              placeholder="Subject" required="" />
+            <label class="input__label input__label--jiro" for="input-12">
+              <span class="input__label-content input__label-content--jiro">Subject</span>
+            </label>
+          </span>
+          <textarea id="input-13" name="w3lMessage" placeholder="Message..." required=""></textarea>
+          <input id="final-submit-button" type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="js/classie.js"></script>
+  <script>
+    (function () {
+      // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+      if (!String.prototype.trim) {
+        (function () {
+          // Make sure we trim BOM and NBSP
+          var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+          String.prototype.trim = function () {
+            return this.replace(rtrim, "");
+          };
+        })();
+      }
+
+      [].slice
+        .call(document.querySelectorAll("input.input__field"))
+        .forEach(function (inputEl) {
+          // in case the input is already filled..
+          if (inputEl.value.trim() !== "") {
+            classie.add(inputEl.parentNode, "input--filled");
+          }
+
+          // events:
+          inputEl.addEventListener("focus", onInputFocus);
+          inputEl.addEventListener("blur", onInputBlur);
+        });
+
+      function onInputFocus(ev) {
+        classie.add(ev.target.parentNode, "input--filled");
+      }
+
+      function onInputBlur(ev) {
+        if (ev.target.value.trim() === "") {
+          classie.remove(ev.target.parentNode, "input--filled");
+        }
+      }
+    })();
+  </script>
+  <!-- //Contact Us -->
+  <!-- contact -->
+  <div id="contact" class="contact">
+    <div class="contact-row agileits-layouts">
+      <div class="col-md-5 contact-w3lsleft map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.2782234892848!2d77.16503231508166!3d28.591429082434107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d3cf842aa09%3A0x7c2d506edd36b06f!2sAtma%20Ram%20Sanatan%20Dharma%20College!5e0!3m2!1sen!2sin!4v1666867999885!5m2!1sen!2sin"></iframe>
+      </div>
+      <div class="col-md-7 contact-w3lsright">
+        <h6>
+          You can contact us via mail or by calling us. You can also visit our
+          office.
+        </h6>
+        <div class="col-xs-6 address-row">
+          <div class="col-xs-2 address-left">
+            <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+          </div>
+          <div class="col-xs-10 address-right">
+            <h5>Visit Us</h5>
+            <p>ARSD College <br />Dhaula kuan, New Delhi</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-xs-6 address-row w3-agileits">
+          <div class="col-xs-2 address-left">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+          </div>
+          <div class="col-xs-10 address-right">
+            <h5>Mail Us</h5>
+            <p>
+              <a href="mailto:info@example.com"> valorant123@mail.com </a>
+            </p>
+            <p><a href="mailto:info@example.com"> valorantABC@mail.com</a></p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-xs-6 address-row">
+          <div class="col-xs-2 address-left">
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+          </div>
+          <div class="col-xs-10 address-right">
+            <h5>Call Us</h5>
+            <p>+91 123 456 789<br /></p>
+            <p>+01 111 333 555</p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-xs-6 address-row">
+          <div class="col-xs-2 address-left">
+            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+          </div>
+          <div class="col-xs-10 address-right">
+            <h5>Working Hours</h5>
+            <p>
+              Mon - Fri : 9:30 am to 5:30 pm<br />
+              Sat - Sun : Closed
+            </p>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <!-- //contact -->
+
+  <!-- copyright -->
+  <div class="copyright">
+    <div class="container">
+      <p class="footer-class">
+        © 2022 VALORANT . All Rights Reserved |
+        <a href="http://layouts.com/" target="_blank">IT Project</a>
+      </p>
+    </div>
+  </div>
+  <!-- //copyright -->
+  <script src="js/jarallax.js"></script>
+  <!-- <script src="js/SmoothScroll.min.js"></script> -->
+  <script type="text/javascript">
+    /* init Jarallax */
+    $(".jarallax").jarallax({
+      speed: 0.5,
+      imgWidth: 1366,
+      imgHeight: 768,
+    });
+  </script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <!-- here stars scrolling icon -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+      var defaults = {
+      containerID: 'toTop', // fading element id
+      containerHoverID: 'toTopHover', // fading element hover id
+      scrollSpeed: 1200,
+      easingType: 'linear' 
+      };
+    */
+
+      $().UItoTop({ easingType: "easeOutQuart" });
+    });
+  </script>
+  <!-- //here ends scrolling icon -->
+  <!-- Tabs-JavaScript -->
+  <script src="js/jquery.filterizr.js"></script>
+  <script src="js/controls.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $(".filtr-container").filterizr();
+    });
+  </script>
+  <!-- //Tabs-JavaScript -->
+</body>
+
+</html>
